@@ -10,6 +10,7 @@ const CreateBooks = () => {
   const [publishYear, setPublishYear] = useState("");
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
+  const handleSaveBook = () => {};
 
   return <div>CreateBooks</div>;
 };
